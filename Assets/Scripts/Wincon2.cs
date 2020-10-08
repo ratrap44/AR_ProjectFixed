@@ -9,7 +9,7 @@ public class Wincon2 : MonoBehaviour
     {
         if (other.name == "Player")
         {
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene(2);
             Debug.Log("triggered");
         }
     }

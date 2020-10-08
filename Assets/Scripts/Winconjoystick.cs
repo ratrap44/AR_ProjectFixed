@@ -11,7 +11,7 @@ public class Winconjoystick : MonoBehaviour
     {
          if (other.name == "Player")
             {
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene(1);
             Debug.Log("triggered");
             }
     }
